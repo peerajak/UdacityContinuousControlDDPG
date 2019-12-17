@@ -64,14 +64,18 @@ The environment is considered solved, when the average (over 100 episodes) of th
 >git clone https://github.com/peerajak/UdacityContinuousControlDDPG.git
 
 
-
 4. Change directory to the cloned directory. Symbolic link the downloaded Unity Environment to the cloned directory
 >cd UdacityContinuousControlDDPG
+
 >ln -s ../Reacher_Linux .
+
 
 5. Make sure that your kernel is the installed dependencies, in this case, dlnd enviroment. 
 >python -m jupyter notebook Continuous_Control_multiDDPG.ipynb
+
 The ipython file should be automatically shown on your web browser. 
 
+
 6. Run all cells.
+
 
